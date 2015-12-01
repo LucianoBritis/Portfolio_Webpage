@@ -1,0 +1,313 @@
+/* ---------------1. defaults---------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #fff;
+} 
+/* ---------------1. header---------------*/
+.navbar {
+	background-color: transparent;
+	border: 0;
+}
+.navbar ul {
+	display: inline-block;
+}
+.navbar	a {
+	font-size: 16px;
+	color:#FFA500;
+  	font-weight: bold;
+  	text-transform:Uppercase;
+  	padding: 15px 10px;   
+}
+.navbar a:hover {
+	color:#FF4500;
+	background: transparent;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
+/* ---------------1. header---------------*/
+
+.navbar .navbar-toggle .icon-bar {
+	background-color:#FFA500;
+	text-shadow: 0px 2px 3px #000;
+}
+
+.navbar .navbar-toggle:hover {
+    background-color:transparent;
+     border: 1px solid #FFA500;
+     text-shadow: 0px 2px 3px #000;
+}
+
+/* ---------------menu responsivo---------------*/
+/* ---------------1. jumbotron---------------*/
+.jumbotron{
+	height: 600px;
+ 	margin-top: -71px;
+ 	margin-bottom: 0;
+	background-image:url('https://picjumbo.imgix.net/HNCK7799.jpg?q=40&w=1300&sharp=30');
+	background-repeat: no-repeat;
+ 	background-size: cover;
+
+  }
+  .jumbotron .container {
+ 	position: relative;
+	top: 50px;
+	left: 55px;
+  }
+.jumbotron h1 {
+	font-size: 48px;  
+ 	font-family: 'Shift', sans-serif;
+ 	font-weight: bold;	
+	color: #fff;
+	text-shadow: 0px 2px 3px black;
+}
+.jumbotron p {
+	color: #fff;
+	text-shadow: 0px 2px 3px black;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top:30px;
+}
+/* ---------------1. jumbotron---------------*/
+/* ---------------1. details ---------------*/
+.pull {
+	float: right;
+}
+.details {
+	background-color:#E6E6FA;
+	opacity: 0.75;
+}
+.details h4 {
+	font-family: 'Shift', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.details p {
+	font-size: 14px;
+	text-align: justify;
+	padding-top: 5px;
+  }
+
+.details .container li {
+	font-size: 14px;
+	padding-top: 2px;
+}
+.details .container ol {
+	padding-left: 16px;
+}
+/* ---------------1. details ---------------*/
+/* ---------------1. neighborhood-guides ---------------*/
+.neighborhood-guides {
+	background-color:#12C9C4;
+}
+.neighborhood-guides h2 {
+    color:#393c3d;
+    font-family: sans-serif;
+    font-size: 44px;
+    padding: 10px;
+}
+.neighborhood-guides cite {
+	font-weight: bolder;
+	color: #FFA500;
+	background-color: #fefefe; 
+	border: 3px solid #000080;
+	padding: 1px 15px;
+}
+/* ---------------1. neighborhood-guides ---------------*/
+/*input:valid {
+	border: 2px solid #FFA500;
+}
+
+/* ---------------1. about ---------------*/
+.row .about {
+	font-size: 14px;
+	text-align: justify;
+	padding-top:5px;
+}
+#about a:hover {
+	text-decoration: none;
+}
+#about {
+	background-color: #FFD700;
+}
+/* ---------------1. about ---------------*/
+/* ---------------img suspensa style ---------------*/
+.smaller-image {
+   border:10px solid #FFA500;
+   border-radius: 50%;
+   cursor:none;
+}
+
+.suspenso {
+   padding-left:20px;
+}
+
+/* ---------------img suspensa style ---------------*/
+#map {
+	
+	height: 350px;
+	width: auto;
+	margin: 0;
+	border: 0px;
+}
+/* ---------------1. Mapa ---------------*/
+/* ---------------1. contact-page ---------------*/
+#contact-page {
+	height: 500px;
+   margin-top:50px;
+	background-color: #fefefe;
+}
+#contact-page .btn-primary {
+	margin-top: 10px;
+}
+.btn:hover { /*efeito hover goblal nos btn*/
+   	background-color: #FFA500; /*#2b2b2b*/
+   	text-decoration: none;
+   	border-width: 1px;
+   	border-style: solid;
+   	border-color:#FFA500;
+}
+/* ---------------1. contact-pag ---------------*/
+.img-responsive {
+	width:304px; 
+	height:236px;
+}
+/*---------------seção contato social---------------*/
+#thing {
+	background-color: #252525;
+	color: #999;
+	height:200px;
+	font-size: 15px;
+	font-family: Verdana, sans-serif;
+}
+#thing h1,h2{
+	padding-top: 50px;
+	padding-left: 30px;
+   	color:#fff;
+}
+aside {	
+   font-size:20px;
+   padding-top:10px;
+   color:#fff;
+}
+/*---------------/\seção contato social---------------*/
+/*---------------btn social style ---------------*/
+.social h2 {
+	text-align: left;
+	padding-left: 10px;
+}
+.social li {
+	display: inline;
+	list-style: none;
+	margin: 0 2px;
+	padding: 3px;
+}
+
+.btn-social {
+	border: 0px #fff solid !important;
+	border-radius: 50%;
+	color: #000;
+	text-shadow: 0 1px rgba(0,0,0,.5);
+	font-size: 1.5em;
+	}
+	.btn-facebook {
+		background-color:#fff;
+	}
+	.btn-facebook:hover, .icon-facebook:hover {
+		color: #fff !important;
+		background:#FFA500 !important;
+		
+	}
+	.btn-twitter{
+		background-color:#fff;
+	}
+	.btn-twitter:hover,.icon-twitter:hover {
+		color: #fff !important;
+		background:#FFA500 !important;
+		
+	}
+	.btn-linkedin {
+		background-color:#fff;
+	}
+	.btn-linkedin:hover, .icon-linkedin:hover {
+		color: #fff !important;
+		background:#FFA500 !important;
+	
+	}
+	.btn-github{
+		background-color:#fff;
+	}
+	.btn-github:hover,	.icon-github:hover {
+		color: #fff !important;
+		background:#FFA500 !important;
+		
+}		/*---------------btn social style ---------------*/
+/*---------------footer---------------*/
+#footer {
+	background: #333;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	color: #666;
+}
+#footer { 
+  display: block;
+}
+.cp {
+	margin-top: 11px;
+}
+.text-center {
+ 	text-align:center;
+}
+#top {
+	height: 30px;
+	line-height: 30px;
+	width: 30px;
+	text-align: center;
+	display: inline-block;
+	background: #1d1d1d;
+	font-size: 24px;
+	color: #fff;
+	margin: 0 auto;
+}
+#top:hover {
+	background: #FFA500; /*#2b2b2b*/
+	text-decoration: none;
+	}
+.icon-angle-up {
+	color: #fff;
+	text-decoration: none;
+}
+/*---------------footer---------------*/
+
+@media (max-width: 8000px)
+{
+ 
+}
+
+@media (max-width: 550px)
+{
+ 
+}
+
+@media (max-width: 450px)
+{
+  
+}
+
+@media (max-width: 350px)
+{
+
+}
+
+
+@media (max-width: 250px)
+{
+
+}
+
+
