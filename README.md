@@ -10,7 +10,7 @@ Este projeto faz parte do estudo do FCC - Free Code Camp do tópico Basic Front 
 
  Map - Basic Front End Development Projects 
  
- Session - Zipline 2 - Zipline: Build a Personal Portfolio Webpage.
+ Session - 2 - Zipline: Build a Personal Portfolio Webpage.
  
  
 
